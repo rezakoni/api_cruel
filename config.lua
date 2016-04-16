@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '208717437:AAFCL0KNp8gLrCdlYHv2KUs6_il7aG8e9Sk',
 	google_api_key = '',
 	google_cse_key = '',
 	lastfm_api_key = '',
@@ -58,7 +58,7 @@ Send /help to get started.
 	},
 	moderation = {
 		admins = {
-			['00000000'] = 'You'
+			['188548712'] = 'M.KH'
 		},
 		errors = {
 			antisquig = 'This group is English-only.',
