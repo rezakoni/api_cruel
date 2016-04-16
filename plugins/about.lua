@@ -11,7 +11,7 @@ local action = function(msg)
 	-- other plugins.
 	if msg.forward_from then return end
 
-	local message = config.about_text .. '\nCRUEL aPI BOT\nSUDO:*M.KH*   `@cruel0098`'
+	local message = config.about_text .. 'سازنده : @guardbots_admin'
 
 	if msg.new_chat_participant and msg.new_chat_participant.id == bot.id then
 		sendMessage(msg.chat.id, message, true)
