@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '208717437:AAFCL0KNp8gLrCdlYHv2KUs6_il7aG8e9Sk',
+	bot_api_key = '143345045:AAErrHocHuiql4HrnyDdJDJ3Otc0x7G9Wjc',
 	google_api_key = '',
 	google_cse_key = '',
 	lastfm_api_key = '',
@@ -41,13 +41,17 @@ return {
 			'good morning',
 			'good day',
 			'good afternoon',
-			'good evening'
+			'good evening',
+			'سلام'
 		},
-		['Goodbye, #NAME.'] = {
+		['بسلامت, #NAME.'] = {
 			'bye',
 			'later',
 			'see ya',
-			'good night'
+			'good night',
+			'بای',
+			'خداحافظ',
+			'فعلا'
 		},
 		['Welcome back, #NAME.'] = {
 			'i\'m home',
@@ -68,8 +72,8 @@ return {
 			not_mod = 'This command must be run by a moderator.',
 			not_admin = 'This command must be run by an administrator.',
 		},
-		admin_group = -00000000,
-		realm_name = 'My Realm',
+		admin_group = -132983010,
+		realm_name = 'ADMIN GROUP',
 		antisquig = false
 	},
 	plugins = {
