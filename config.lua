@@ -18,9 +18,11 @@ return {
 	admin_name = 'John Smith',
 	log_chat = nil,
 	about_text = [[
-I am otouto, the plugin-wielding, multi-purpose Telegram bot.
+سلام من ربات apiتیم کرول هستم که کلی پلاگین دارم
 
-Send /help to get started.
+برای دریافت راهنمایی دستور 
+/help
+رو بفرستین
 ]]	,
 	errors = {
 		connection = 'Connection error.',
@@ -31,7 +33,7 @@ Send /help to get started.
 		chatter_response = 'I don\'t know what to say to that.'
 	},
 	greetings = {
-		['Hello, #NAME.'] = {
+		['سلام, #NAME.'] = {
 			'hello',
 			'hey',
 			'sup',
